@@ -1,0 +1,163 @@
+body {
+  background-color: #fcd001;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#section {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: none;
+  text-align: center;
+  margin: 1%;
+}
+
+#section .card {
+  height: 97vh;
+  width: 23%;
+  background-color: white;
+  padding-top: 40px;
+}
+
+/* text-align: center; */
+
+.heading {
+  font-size: 1em;
+  text-align: center;
+  height: 10%;
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.feeComponent {
+  font-size: 0.8em;
+  text-align: center;
+  height: 17%;
+  width: 80%;
+  margin: auto;
+  background-color: #f5fbff;
+}
+
+.feeComponent h1 {
+  padding: 4px;
+}
+.price {
+  font-size: 4em;
+  margin-top: -10%;
+  margin-bottom: 0%;
+}
+sup {
+  position: relative;
+  left: 10px;
+  top: 8px;
+}
+
+.feeComponent a {
+  text-decoration: none;
+  color: #1314ff;
+  font-weight: 600;
+}
+
+.para {
+  width: 80%;
+  margin: auto;
+  margin-top: 15%;
+  word-spacing: 2px;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+.footer {
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #1314ff;
+  font-weight: 600;
+  position: fixed;
+  top: 90%;
+  margin-left: -5%;
+}
+
+.new {
+  background-color: #fcd001;
+  color: black;
+  transform: rotate(-45deg);
+  padding: 3px 60px;
+  position: absolute;
+  top: 23px;
+  left: -30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  #section {
+    display: block;
+  }
+  .buttons {
+    display: block;
+  }
+  button {
+    background-color: white;
+    opacity: 0.5;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+  }
+  .buttonOnClick {
+    background-color: #333333;
+  }
+
+  #section .card {
+    height: 88vh;
+    width: 100%;
+    background-color: white;
+    padding-top: 40px;
+    font-size: 0.7em;
+  }
+
+  .price {
+    /* font-size: 4em; */
+    margin-top: -7%;
+    /* margin-bottom: 0%; */
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    display: none;
+  }
+  .heading {
+    font-size: 1em;
+    text-align: center;
+    height: 10%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .heading h1 {
+    margin-bottom: 20%;
+  }
+  .feeComponent {
+    font-size: 0.8em;
+    text-align: center;
+    height: 17%;
+    width: 80%;
+    margin: auto;
+    background-color: #f5fbff;
+    margin-top: 10%;
+  }
+}
